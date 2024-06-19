@@ -1,0 +1,37 @@
+/*****************************************************************************
+
+TITLE: CLAIMS																														
+AUTHOR:   PAREPALLY SASYA SRI HARSHITHA [ 2201CS52 ]
+
+** Declaration of Authorship **
+
+This txt file, claims.txt, is part of the miniproject of CS209/CS210 at the 
+department of Computer Science and Engg, IIT Patna . 
+
+*****************************************************************************/
+
+Files:
+
+The evidence for Assembler including the output files from the 4 test examples has also been uploaded.
+
+They are:
+test0.asm:(3 output files: test0.asm, test0.o, test0.l)
+test1.asm:(3 output files: test1.asm, test1.o, test1.l)
+test2.asm:(3 output files: test2.asm, test2.o, test2.l)
+test3.asm: (2 outputfiles: test3.asm, test3.log)
+
+format:
+file.o(pass 1 output)
+file.l(pass 2 output)
+file.log(error checking output)
+my test cases
+(emu.cpp,bubblesort.txt,sumofnnumbers.cpp)
+the output format will be memory dump.
+
+All the test files have been tested and work properly. 
+
+Each of the object files that have been produced are also inputted into the emulator to create the dump files.
+
+*Two programs are compilable with :
+g++ emu.cpp -o emuexe 
+

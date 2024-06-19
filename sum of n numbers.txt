@@ -1,0 +1,25 @@
+;M[0]=n
+;M[1]=sum
+;M[2]=count
+n: data 4
+ldc n       
+stl 0    
+ldc 0
+stl 2
+ldc 0
+start: adj 0
+stl 1
+ldl 2
+adc 1
+stl 2
+ldl 2
+ldl 0
+sub
+brz done
+
+ldl 1
+ldl 2
+add
+br start
+done: adj 0
+HALT
