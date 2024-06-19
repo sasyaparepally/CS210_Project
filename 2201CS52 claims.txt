@@ -31,7 +31,21 @@ the output format will be memory dump.
 All the test files have been tested and work properly. 
 
 Each of the object files that have been produced are also inputted into the emulator to create the dump files.
+explaining each test case in emulator
+
+file to be executed:emu.cpp
+bubblesort.txt->It is a n input bubble sort algorithm.In the code it is assumed that n is to be 4 by default for working sample example and 
+mem[0]=first input
+mem[1]=second input
+mem[2]=third input
+mem[3]=fourth input
+mem[4]=n-1=3
+outout comes in sorted order in mem[0-3] positions.
+sumofnnumbers.txt->It gives sum of first n numbers starting from zero.
+mem[0]=input=n
+mem[1]=output
 
 *Two programs are compilable with :
 g++ emu.cpp -o emuexe 
 
+as they are written in cpp.
